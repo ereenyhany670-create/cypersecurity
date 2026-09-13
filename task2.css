@@ -1,0 +1,220 @@
+body{ 
+    width: 2000px;
+    height:auto;
+    /* display: grid; 
+    grid-template-areas: 
+    "header header header"
+    "card1 card1 card1" */
+    ;
+}
+header{
+    /* grid-area: header; */
+    background-color: rgb(8, 8, 85);
+   width: 2000px;
+   height: 80px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+     position: relative;
+     
+     bottom: 40px;
+     left: 1000px;
+     padding: 10px;
+     gap: 30px;
+
+   
+}
+header>h1{
+    
+   text-indent: 30px;
+}
+#intro{
+     background-image: url("first.avif");    
+     width: 2000px;
+     height: 650px;
+     margin: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#buttonintro{
+    color: white;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(92, 204, 167);
+    border-radius: 15%;
+   }
+ article{
+    display: flex;
+    justify-content: space-evenly;
+    width: 2000px;
+    height: 400px;
+ }
+ 
+ article>img{
+    transform: translate(-300px ,80px);
+   
+    border-radius: 7%;
+    width: 440px;
+    height: 220px;
+    box-shadow: 0px 4px 10px gray;
+    
+ }
+ #article{
+    transform: translate(-180px,90px);
+ }
+ #icons{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.638);
+    width: 2000px;
+    height: 400px;
+    padding: 20px;
+    
+
+    
+ }
+ #icons>h1{
+    
+    transform: translate(-240px,0px);
+ }
+ #div1{
+   background-color:white;
+   width: 330px;
+   height: 250px;
+   border-radius: 10%;
+   transform: translate( 50px,30px);
+   box-shadow: 0px 4px 10px gray;
+ }
+ #div2{
+   background-color:white;
+   width: 330px;
+   height: 250px;
+   border-radius: 10%;
+    transform: translate( 500px,-220px);
+    box-shadow: 0px 4px 10px gray;
+ }
+ #div3{
+   background-color:white;
+   width: 330px;
+   height: 250px;
+   border-radius: 10%;
+    transform: translate( 950px,-470px);
+    box-shadow: 0px 4px 10px gray;
+ }
+#speech{
+   text-align: center;
+   padding: 10px;
+   width: 2000px;
+    height: 300px;
+}
+#speech>h1{
+   transform: translate(-240px,0px);
+}
+ .offer{
+   text-align: center;
+   width: 330px;
+   height: 90px;
+    box-shadow: 0px 4px 10px gray;
+    padding: 10px;
+    /* background-color: red; */
+ }
+ #offer1{
+   
+    transform: translate( 50px,40px);
+ }
+ #offer2{
+   
+        transform: translate( 500px,-70px);
+ }
+ #offer3{
+   
+        transform: translate( 950px,-180px);
+ }
+
+ aside{
+   background-color: rgba(35, 35, 170, 0.915);
+   width: 2000px;
+   height: 600px;
+   text-align: center;
+   padding: 10px;
+ }
+ aside>h1{
+   transform: translate(-260px,0px);}
+
+   aside>img{
+      width: 600px;
+      height: 400px;
+      border-radius: 3%;
+      box-shadow: 0px 4px 10px gray;
+      transform: translate(-600px,20px);
+ }
+ #lastdiv{
+   width: 600px;
+   height: 400px;
+   background-color: rgb(78, 78, 199);
+   position: relative;
+   left: 800px;
+   top: -390px;
+   border-radius: 3%;
+   padding: 30px;
+   
+ }
+ #inputdiv1{
+   background-color: white;
+   width: 500px;
+   height: 50px;
+   border-radius: 5%;
+   transform: translate(20px,5px);
+   
+ }
+ #inputdiv1>h4{
+   transform: translate(-200px,15px);
+
+ }
+ #inputdiv2{
+   background-color: white;
+   width: 500px;
+   height: 50px;
+   border-radius: 5%;
+   transform: translate(20px,5px);
+   
+ }
+ #inputdiv2>h4{
+   transform: translate(-200px,15px);
+
+ }
+#inputdiv3{
+   background-color: white;
+   width: 500px;
+   height: 150px;
+   border-radius: 5%;
+   transform: translate(20px,5px);
+   
+ }
+ #inputdiv3>h4{
+   transform: translate(-200px,15px);
+
+ }
+ aside> #lastdiv>button{
+   width:150px;
+   height: 50px;
+   background-color: #92ffdbe0;
+   border-radius: 40%;
+   transform: translate(10px,40px);
+ }
+
+ footer{
+    /* grid-area: header; */
+    background-color: rgb(8, 8, 85);
+   width: 2000px;
+   height: 60px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   transform: translate(-220px,0px);
+   
+    
+}
+
